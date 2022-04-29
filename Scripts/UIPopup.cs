@@ -20,7 +20,7 @@ public class UIPopup : MonoBehaviour
 
     void Update()
     {
-        if(isup) {panel.SetActive(true); txt.text = "--";}
+        if(isup) {panel.SetActive(true); txt.text = "─";}
         else {panel.SetActive(false); txt.text = "+";}
     }
 }
