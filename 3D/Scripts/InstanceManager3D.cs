@@ -33,4 +33,9 @@ public class InstanceManager3D : MonoBehaviour
         ColorUtility.TryParseHtmlString(hexCode, out color);
         r.material.color = color;
     }
+
+    public void AddObject(GameObject tile)
+    {
+        Instantiate(tile);
+    }
 }
